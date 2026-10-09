@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Feed Fest</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav__inner">
+            <a href="#inicio" class="logo">The<span>FEED</span>Fest</a>
+
+            <ul class="nav__links" id="menu">
+                <li><a href="#inicio">Feed</a></li>
+                <li><a href="#datos">Programa</a></li>
+                <li><a href="#galeria">Info</a></li>
+                <li><a href="form.html">Entradas</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar a modo oscuro">
+                    <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">☾</span>
+                    <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">☀</span>
+                </button>
+
+                <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="header">
+
+        <div class="container header-content">
+            <div class="header-txt">
+                <h1>A buen hambre, buen plan.</h1>
+                <h2> El nuevo <span>hot spot</span> gastronómico de Madrid llega el verano que viene.</h2>
+
+                <div class="btn-header">
+                    <a href="form.html">QUIERO MI ENTRADA</a>
+                </div>
+            </div>
+        </div>
+        
+
+    </header>
+
+    <div class="marquee">
+        <ul class="marquee__content">
+            <li>Madrid</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Chefs Internacionales</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Food Market</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DJ Set</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Junio 2027</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Ifema</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+        </ul>
+        <ul class="marquee__content" aria-hidden="true">
+            <li>Madrid</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Chefs Internacionales</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Food Market</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DJ Set</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Junio 2027</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>Ifema</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+        </ul>
+    </div>
+
+    <section>
+        <div>
+            <h1>Algo se cuece en Madrid</h1>
+            <h2>Más que comida</h2>
+            <p><span>El festival gastronómico que lo junta todo.</span></p>
+
+            <p>The Feed Fest es comida, cultura, musica y planes. Nuevos sabores, nuevas ideas y <span>muuuuuchas</span> cosas pasando. Vienes por la comida, pero te quedas por todo lo demás ❤</p>
+
+            <p><span>En verano de 2027, Madrid tiene nuevo plan,</span> tu solo tienes que venir ☻</p>
+            <div class="btn-group">
+                    <a href="form.html">QUIERO MI ENTRADA</a>
+                    <a href="#">VER PROGRAMA</a>
+            </div>
+        </div>
+        <div>
+            <img src="IMAGES/SECTION_01.jpg" alt="festival amigos"> 
+        </div>
+    </section>
+
+    <main id="programa">
+            <div class="container">
+                <h1>Hay MUUUUCHO por probar y poco que pensarse</h1>
+                <h2>Tu solo tienes que venir</h2>
+                <!-- cards en horizontal -->
+                <div class="flex-container">
+                    
+                    <!-- CARD 1 -->
+                    <div class="card01">
+                        <div class="card-img">
+                            <img src="IMAGES/PR_LIVE_COOKING.jpg" alt="live cooking">
+                        </div>
+                        <div class="card-text">
+                            <h3>Live Cooking</h3>
+                            <p>La cocina, en directo.</p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="card02">
+                        <div class="card-img">
+                            <img src="IMAGES/PR_TASTINGS.jpg" alt="tasting">
+                        </div>
+                        <div class="card-text">
+                            <h3>Tastings</h3>
+                            <p>Cata tu próximo favorito</p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="card03">
+                        <div class="card-img">
+                            <img src="IMAGES/PR_TALKS.jpg" alt="charlas">
+                        </div>
+                        <div class="card-text">
+                            <h3>Talks</h3>
+                            <p>Nuevas ideas sobre la mesa</p>
+                        </div>
+                    </div>
+
+                    <div class="pr-txt">
+                        <p><span>Aquí no vienes solo a comer.</span> Vienes a descubrir, probar, aprender, escuchar, participar y, por qué no, quedarte un rato más. <span>The Feed Fest</span> reúne todo lo que nos gusta alrededor de la gastronomía para que cada visita sea un plan diferente. <span>Y esto es solo el comienzo...</span></p>
+                    </div>
+                   
+                </div>
+
+                 <div class="btn-header">
+                        <a href="#">VER PROGRAMA</a>
+                    </div>
+
+            </div>
+    </main>
+
+    <main id="chefs">
+
+        <h1>El talento se encuentra en The Feed Fest</h1>
+        <h2>AQUÍ NO VIENE CUALQUIERA</h2>
+        <div class="cardchefs">
+            <div class="izq-chef">
+                <img src="IMAGES/CHEF_DAVID.webp" alt="david muñoz">
+            </div>
+    
+            <div class="der-chef">
+                <h4>David Muñoz</h4>
+                <div class="body-chef">
+                    <p>DiverXo | Madrid</p>
+                </div>
+                <div class="btn-chefdm">
+                    <h3>Live Cooking</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardchefs">
+            <div class="izq-chef">
+                <img src="IMAGES/CHEF_PIA.jpeg" alt="pia León">
+            </div>
+    
+            <div class="der-chef">
+                <h4>Pia Leon</h4>
+                <div class="body-chef">
+                    <p>Kjolle | Biodiversidad y producto peruano</p>
+                </div>
+                <div class="btn-chefdm">
+                    <h3>Live Cooking</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardchefs">
+            <div class="izq-chef">
+                <img src="IMAGES/CHEF_RODRI.jpg" alt="RDC">
+            </div>
+    
+            <div class="der-chef">
+                <h4>Rodrigo de la Calle</h4>
+                <div class="body-chef">
+                    <p>El Invernadero | Cocina vegetal</p>
+                </div>
+                <div class="btn-chefrdc">
+                    <h3>Talks</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardchefs">
+            <div class="izq-chef">
+                <img src="IMAGES/CHEF_JOSEPROCA.jpg" alt="Josep Roca">
+            </div>
+    
+            <div class="der-chef">
+                <h4>Josep Roca</h4>
+                <div class="body-chef">
+                    <p>El camarero de vinos</p>
+                </div>
+                <div class="btn-chefjr">
+                    <h3>Tastings</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-header">
+            <a href="#">VER PROGRAMA</a>
+        </div>
+
+    </main>
+
+    <main id="map">
+            <h1>Madrid, nos vemos MUY PRONTO</h1>
+            <h2>Apunta la fecha y lugar en la agenda</h2>
+            <p>IFEMA Madrid | 16 y 17 de Junio de 2027</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.441822960616!2d-3.6192819231603073!3d40.46548957143184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422e50d152df37%3A0x801ce4be7e7a5eec!2sIFEMA%20Madrid!5e0!3m2!1ses!2ses!4v1791506817638!5m2!1ses!2ses" width="1024" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+            <div class="btn-header">
+            <a href="form.html">QUIERO MI ENTRADA</a>
+        </div>
+    </main>
+
+    <main id="faqs">
+        <h1 class="faq-title">"Vale, pero..."</h1>
+        <h2>¿Dudas? Te las resolvemos aquí</h2>
+        <div class="faq">
+            <div class="question">
+                <h3>¿Puedo traer a los peques?</h3>
+                
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <div class="answer">
+                <p>¡Claro! FEED es un festival para disfrutar de la gastronomia y la cultura. Los menores podran acceder acompañados de un adulto, según las condiciones de acceso del festival.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>¿El festival es accesible?</h3>
+                
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <div class="answer">
+                <p>¡Si! El recinto contara con accesos e instalaciones adaptadas para personas con movilidad reducida. Si necesitas alguna asistencia especifica, contacta con nuestro equipo antes de venir.</p>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <div class="question">
+                <h3>¿Cuáles son los horarios?</h3>
+                
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <div class="answer">
+                <p>FEED te espera el 16 y 17 de junio de 2027 en IFEMA Madrid. Los horarios de apertura y cierre de cada jornada se anunciaran proximamente. ¡Estate atento!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="IMAGES/feedlogocontorno.png" alt="logo de FEED">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>The FEED Fest</h2>
+                <p>La comida nos junta. La cultura nos mueve. FEED lo mezcla todo.</p>
+                <p>Nos vemos en Madrid.</p>
+
+                <h2>Patrocinador Oficial</h2>
+                <p>The Coca-Cola Company</p>
+                <img src="IMAGES/Coca-Cola_logo.svg.webp" alt="cocacolalogo">
+            </div>
+            <div class="box">
+                <h2>No nos pierdas la pista</h2>
+                <div class="rrss">
+                    <a href="https://www.instagram.com/"><i data-feather="instagram"></i></a>
+                    <a href="https://x.com/?lang=es"><i data-feather="twitter"></i></a>
+                    <a href="https://www.tiktok.com/es/"><i data-feather="music"></i></a>
+                    <a href="https://www.facebook.com/?locale=es_ES"><i data-feather="facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2026 <b>The FEED Fest</b> | Todos los Derechos Reservados</small>
+        </div>
+        
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+</body>
+</html>
